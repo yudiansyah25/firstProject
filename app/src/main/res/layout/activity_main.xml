@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="28dp"-->
+<!--        android:text="Hello World!"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:textSize="30sp" />-->
+
+
+    <TextView
+        android:id="@+id/tv_hw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"
+        android:text="Biodata!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="28dp"
+        android:layout_below="@id/tv_hw"
+        android:text="Yudiansyah!"
+        android:textColor="@color/hitam"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_uy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_alamat"
+        android:text="wajok hilir, kecamatan jungkat, kabupaten Mempawah"
+        android:textColor="@color/merah"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_uy"
+        android:layout_centerHorizontal="true"
+        android:text="Move"
+        android:textSize="28dp"/>
+
+
+</RelativeLayout>
